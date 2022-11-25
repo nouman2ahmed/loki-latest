@@ -22,7 +22,7 @@ loki:
 
 
 promtail:
-  enabled: true
+  enabled: false
   config:
     logLevel: info
     serverPort: 3101
