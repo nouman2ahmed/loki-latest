@@ -9,7 +9,7 @@ metadata:
     chart: {{ template "loki-stack.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
-  name: {{ template "loki-stack.fullname" . }}-test
+  name: default
 spec:
   containers:
   - name: test
