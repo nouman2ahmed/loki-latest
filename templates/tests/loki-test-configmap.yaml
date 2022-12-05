@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: {{ template "loki-stack.fullname" . }}-test
+  name: default
   labels:
     app: {{ template "loki-stack.name" . }}
     chart: {{ template "loki-stack.chart" . }}
